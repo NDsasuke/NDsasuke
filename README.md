@@ -35,12 +35,13 @@ MySQL · MariaDB · Oracle Database · Docker · Linux
 **Development**  
 Git · REST APIs · Web Development · Software Development · Automated & Manual Testing
 
-## 📌 Selected work
+## 📌 Selected public work
 
-- **Awaken POS** — A production-deployed retail POS platform currently being trialled by a real business.
-- **Java Microservices POS** — A Java/Spring Boot microservice-based POS project demonstrating service-oriented backend development.
-- **E-commerce Product Title Recommendation Research** — Undergraduate research exploring product-title patterns and predictive modelling using machine learning and data processing.
-- **Research Data Preprocessing** — Data preparation work supporting machine-learning/research workflows.
+- **[Awaken POS](https://github.com/NDsasuke/awaken-pos-portfolio)** — Portfolio and technical documentation for a live retail POS platform currently being trialled by a real business.
+- **[Autocorrelation Function Diagnostics and Prediction](https://github.com/NDsasuke/Autocorrelation-function-Diagnostics-and-prediction)** — Research-oriented work involving autocorrelation diagnostics and prediction.
+- **[Spring Boot REST](https://github.com/NDsasuke/SpringbootRest)** — Java/Spring Boot REST API project demonstrating backend application development.
+- **[Classification, Regression & Clustering](https://github.com/NDsasuke/Classification-Regression-Clustering)** — Machine-learning work covering common supervised and unsupervised learning approaches.
+- **[Research Data Preprocessing](https://github.com/NDsasuke/Research-data-preprocess)** — Data preparation work supporting machine-learning and research workflows.
 
 ## 🎓 Education
 
