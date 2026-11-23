@@ -14,7 +14,7 @@ A cloud point-of-sale and retail management platform for small and mid-sized sho
 - Tax, sales and inventory reporting, plus an English/Sinhala interface with Sinhala/Singlish product search
 - Multi-tenant architecture: a master database plus a separate database per shop, with strict tenant isolation
 - Security: MFA login, role-based permissions, subscription gating, rate limiting and audit logging
-- **2,500+ automated tests** (PHPUnit, plus Playwright browser tests) and CI/CD with GitHub Actions to staging and production, a production drift check and automated backups
+- **2,565 automated PHPUnit tests** (16,596 assertions), Playwright browser checks, and CI/CD with GitHub Actions to staging and production, a production drift check and automated backups
 
 **Stack:** Laravel · PHP · MariaDB · Redis · JavaScript · Vite · Docker · nginx · Cloudflare · Linux VPS\
 **Portfolio:** [awaken-pos-portfolio](https://github.com/NDsasuke/awaken-pos-portfolio)
