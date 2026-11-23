@@ -2,7 +2,7 @@
 
 **Software Developer & Product Builder | Co-founder at [AwakenDev](https://awakendev.com)**
 
-I build practical software products for real businesses and take them from requirements to production: backend, databases, web and Android apps, testing, deployment and day-to-day operations. At AwakenDev I'm the primary developer behind two live products and three more in development, all built for the Sri Lankan market.
+I build practical software products for real businesses and take them from requirements to production: backend, databases, web and Android apps, testing, deployment and day-to-day operations. At AwakenDev I'm the primary developer behind two live products and three more in development.
 
 ## 🚀 Live products
 
@@ -66,7 +66,6 @@ Bluetooth Classic & BLE · ESC/POS printing · PrintService · Google Play Billi
 
 - **[ADPOS portfolio](https://github.com/NDsasuke/awaken-pos-portfolio)**: screenshots, features and architecture of the live retail POS.
 - **[Awaken Print portfolio](https://github.com/NDsasuke/awaken-print-portfolio)**: architecture and screenshots of the Android print app, plus the open-source `pos-printer.js`.
-- **[POS microservices](https://github.com/NDsasuke/java-microservices)**: a POS backend built as microservices with Spring Cloud Gateway, Eureka, Keycloak, Kafka, Resilience4j, Zipkin, Prometheus and Grafana.
 - **[Autocorrelation Function Diagnostics and Prediction](https://github.com/NDsasuke/Autocorrelation-function-Diagnostics-and-prediction)**: time-series analysis, forecasting, cross-validation and model evaluation.
 - **[Classification, Regression & Clustering](https://github.com/NDsasuke/Classification-Regression-Clustering)**: supervised and unsupervised machine-learning work.
 
