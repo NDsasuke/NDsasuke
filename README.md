@@ -7,16 +7,18 @@ I build practical software products for real businesses and take them from requi
 ## 🚀 Live products
 
 ### 🧾 ADPOS — multi-tenant retail POS · [pos.awakendev.com](https://pos.awakendev.com)
-A cloud point-of-sale and retail management platform for small and mid-sized shops, used in production by a real shop. I architected, built, tested and deployed it as the sole developer.
+A cloud point-of-sale and retail management platform for small and mid-sized shops, live in production with a real business. I architected, built, tested and deployed it as the sole developer.
 
-- Selling with barcode scanning (hardware scanner or phone camera), discounts, cash and credit payments
-- Batch-level inventory with FIFO stock and cost allocation, quotations, suppliers and customer ledgers
-- Tax, sales and inventory reporting, plus an English/Sinhala interface with Sinhala/Singlish product search
-- Multi-tenant architecture: a master database plus a separate database per shop, with strict tenant isolation
-- Security: MFA login, role-based permissions, subscription gating, rate limiting and audit logging
-- **2,565 automated PHPUnit tests** (16,596 assertions), Playwright browser checks, and CI/CD with GitHub Actions to staging and production, a production drift check and automated backups
+- Selling with barcode scanning (hardware scanner or WebAssembly camera decoding), discounts, cash and credit payments, and one-tap receipt printing through [Awaken Print](https://print.awakendev.com)
+- Batch-level inventory with FIFO cost allocation, quotations, supplier payables, customer credit and instalment plans
+- Eleven reports across sales, cost, profit, stock valuation and tax, with an English/Sinhala interface and Sinhala/Singlish product search
+- Multi-tenant architecture: a master database plus a separate database per shop, so one shop can't reach another's data
+- Engineering for money: idempotent checkout, concurrency-safe gapless receipt numbering, row-locked stock to prevent overselling
+- Security: Google OAuth, MFA for administrators, shop-defined roles with per-feature permissions, subscription gating and audit logs
+- **2,565 automated PHPUnit tests** (16,596 assertions), mutation checks on money and access-control code, load tests with simulated concurrent tills, and Playwright browser checks
+- CI/CD with GitHub Actions through staging to production, ending in a health check and transactional smoke test, plus external monitoring and integrity-verified backups with a rehearsed restore
 
-**Stack:** Laravel · PHP · MariaDB · Redis · JavaScript · Vite · Docker · nginx · Cloudflare · Linux VPS\
+**Stack:** PHP 8.2 · Laravel 12 · MariaDB 11 · Redis · Blade · JavaScript · Vite · Docker · nginx · Cloudflare · Linux VPS\
 **Portfolio:** [awaken-pos-portfolio](https://github.com/NDsasuke/awaken-pos-portfolio)
 
 ### 🖨️ Awaken Print — one-tap Bluetooth receipt printing for Android · [print.awakendev.com](https://print.awakendev.com)
